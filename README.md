@@ -13,7 +13,7 @@ Esto instalará OpenCV, una librería necesaria para el procesamiento de imágen
 
 3.	Asegurarse de tener los archivos necesarios:
 El archivo haarcascade_frontalface_default.xml se utiliza para detectar los rostros. Este archivo está incluido en OpenCV, por lo que no se necesita descargar por separado.
-El archivo modeloEigenFace.xml (o el modelo de preferencia) debe estar disponible en el mismo directorio que el script o se debe ajustar la ruta en el código según corresponda.
+El archivo modeloEigenFace.xml (o el modelo de preferencia) se debe generar en el mismo directorio que el script o se debe ajustar la ruta en el código según corresponda.
 
 4.	Ruta de las imágenes de entrenamiento: Hay que asegurarse de tener un conjunto de imágenes de las personas que se desea reconocer. Las imágenes deben estar organizadas en carpetas dentro del directorio especificado en la variable dataPath en el código. Cada subcarpeta debe contener las imágenes de una persona, y el nombre de la subcarpeta debe ser el nombre de la persona.
 
