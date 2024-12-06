@@ -58,6 +58,6 @@ Una vez que se tenga el modelo entrenado, se puede ejecutar el script Reconocimi
 
 ||  Problemas comunes   ||
 
-* El modelo no reconoce correctamente el rostro: Revisar de que el rostro esté bien iluminado y frontalmente visible. Si el reconocimiento sigue fallando, intentar ajustar el umbral de confiabilidad del modelo o mejorar la calidad de las imágenes de entrenamiento.
+* El modelo no reconoce correctamente el rostro: Revisar de que el rostro esté bien iluminado, conb los ojos abiertos y mirando al frente de la camara. Si el reconocimiento sigue fallando, intentar ajustar el umbral de confiabilidad del modelo o mejorar la calidad de las imágenes de entrenamiento.
 
 * La cámara no se abre: Verificar que la cámara esté conectada y correctamente configurada en el sistema. Si se está utilizando un archivo de video, asegurarse de que la ruta del archivo sea correcta.
