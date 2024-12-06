@@ -17,6 +17,10 @@ El archivo modeloEigenFace.xml (o el modelo de preferencia) se debe generar en e
 
 4.	Ruta de las imágenes de entrenamiento: Hay que asegurarse de tener un conjunto de imágenes de las personas que se desea reconocer. Las imágenes deben estar organizadas en carpetas dentro del directorio especificado en la variable dataPath en el código. Cada subcarpeta debe contener las imágenes de una persona, y el nombre de la subcarpeta debe ser el nombre de la persona.
 
+5.  En ReconocimientoFacial.py se escriben los datos de la persona a identificar, la información se revela si el nombre de la
+persona reconocida es el correcto, como un ejemplo tenemos un nombre directo pero esos datos deberían tomarse de una base de datos 
+y desplegar los datos correctos al reconocer a la persona.
+
 ||  Pasos para ejecutar el programa ||
 
 1.	Capturando rostros para el entrenamiento:
